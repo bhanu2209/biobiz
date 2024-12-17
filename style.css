@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.hero-section {
+    background: url('https://biobiz.in/wp-content/uploads/2024/06/mobile-view-Innovation-Insights-1.jpg') no-repeat center center/cover;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.navbar-brand{
+    color: #ff7b00;
+    font-size: 35px;
+    font-family: cursive;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    font-size: 1rem;
+    color: #555;
+    margin: 15px;
+    padding: 10px 15px;
+}
+
+.nav-link:hover {
+    background-color: #ff7b00;
+    margin: 15px 17px;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px 15px;
+}
+h2{
+    color: #ff7b00;
+}
+section {
+    padding: 60px 0;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #666;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Mobile-Responsive Design */
+
+/* Small Devices (Tablets & Large Phones) */
+@media (max-width: 768px) {
+    .hero-section {
+        height: 50vh;
+        font-size: 1rem;
+    }
+
+    .navbar-brand {
+        font-size: 1.25rem;
+    }
+
+    .nav-link {
+        font-size: 0.9rem;
+    }
+
+    section {
+        padding: 40px 20px;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+
+    .card-title {
+        font-size: 1.1rem;
+    }
+
+    .card-text {
+        font-size: 0.9rem;
+    }
+}
+
+/* Extra Small Devices (Phones) */
+@media (max-width: 576px) {
+    .hero-section {
+        height: 40vh;
+        padding: 20px;
+    }
+
+    .hero-section h1 {
+        font-size: 1.75rem;
+    }
+
+    .hero-section p {
+        font-size: 1rem;
+    }
+
+    .navbar-toggler {
+        font-size: 1rem;
+    }
+
+    .navbar-brand {
+        font-size: 1rem;
+    }
+
+    .nav-link {
+        font-size: 0.85rem;
+        text-align: center;
+    }
+
+    section {
+        padding: 30px 15px;
+    }
+
+    .card-title {
+        font-size: 1rem;
+    }
+
+    .card-text {
+        font-size: 0.85rem;
+    }
+
+    footer {
+        font-size: 0.85rem;
+        padding: 8px 0;
+    }
+}
